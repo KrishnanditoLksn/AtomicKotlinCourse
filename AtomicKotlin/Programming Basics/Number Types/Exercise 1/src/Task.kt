@@ -11,4 +11,4 @@ val b = 2
 val c = 11
 
 // 6 / 5.0
-val d = 0.0
+val d = 1.2

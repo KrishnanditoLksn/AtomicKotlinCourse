@@ -1,13 +1,16 @@
 // StringTemplates/Task3.kt
 package stringTemplatesExercise3
 
-fun show(i : Int , s : String , c : Char , d : Double) {
-    println("$i  \n + $s \n$c \n$d \n ")
+fun show(i: Int, s: String, c: Char, d: Double) {
+    println(
+        "$i:  \n + $s: \n$c: \n$d:" +
+                " \n "
+    )
 }
 
 fun main() {
 //  show(1, "abc", 'd', 2.0)
-show(1,"abc" ,'d' , 2.0)
+    show(10, "abc", 'd', 1.0)
 }
 /* Expected output:
 i: 1

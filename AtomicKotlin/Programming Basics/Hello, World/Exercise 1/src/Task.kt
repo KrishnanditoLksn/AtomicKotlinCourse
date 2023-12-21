@@ -3,5 +3,5 @@ package helloWorldExercise1
 
 // TODO
 fun main() {
-    println("Hello, Kotlin!" )
+    println("Helo , Kotlin!")
 }

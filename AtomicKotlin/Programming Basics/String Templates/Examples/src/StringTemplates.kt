@@ -8,8 +8,8 @@ fun main() {
   val arr : Array<Int> = arrayOf(1,2,1)
   val nilai = 2
   when (nilai){
-    in arr -> println("wwllwlw")
-    !in arr -> println("dwadwdaw")
+    in arr -> println("Found $nilai")
+    !in arr -> println("Well , i found ${arr[3]}")
   }
 }
 /* Output:
